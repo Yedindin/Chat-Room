@@ -1,19 +1,10 @@
-# Chat-Room
- A simple chat application using PHP OOP and AJAX
+# 채팅 프로그램
 
-#### This Repository contains the following:
-- [audio](https://github.com/nikhilamin073/Chat-Room/tree/master/audio)
-- [css](https://github.com/nikhilamin073/Chat-Room/tree/master/css)
-- [database](https://github.com/nikhilamin073/Chat-Room/tree/master/database)
-- [images](https://github.com/nikhilamin073/Chat-Room/tree/master/images)
-- [`chat.php`](https://github.com/nikhilamin073/Chat-Room/blob/master/chat.php)
-- [`connection.php`](https://github.com/nikhilamin073/Chat-Room/blob/master/connection.php)
-- [`index.php`](https://github.com/nikhilamin073/Chat-Room/blob/master/index.php)
+이 프로그램은 라즈베리파이 위에서 작동하며, 같은 서버를 쓰는 유저가 자유롭게 짧은 글을 남길 수 있습니다.
 
-This **Chat-Room** is responsive, real-time and a dynamic chat system developed using **PHP PDO**, **MySQLi** and **AJAX**.
+라즈베리파이 연결 상태에서 http://chatwithyedindin.com/chatroom 링크로 접속하면 이용할 수 있습니다.
+batflat 블로그를 방문해도 이 채팅 프로그램으로 이어지는 링크를 볼 수 있습니다.
 
-Database for the Application is in _"database"_ folder. It can be imported to your localhost(phpMyAdmin) or any other server.
-Also configure the `connection.php` to set up the necessary connections with the database.
+사용자의 닉네임과 채팅 내용이 기록되어 이 라즈베리파이를 이용한 사람들의 방명록을 남길 수 있습니다. 
 
->Here is the screenshot of my Chat-Room application:
-<img src="/images/Screenshot - Chat Room.png" width="800" height="450" alt="Chat-Room Screenshot"/>
+도움이 필요하다면 21900160@handong.edu 로 이메일을 주시면 도움을 드릴 수 있습니다.
