@@ -1,28 +1,34 @@
 body{
-	margin-top:20px;
-	background: beige;
+  margin-top:30px;
+  
+  font-family: 'Aleo', serif;
+	background: rgb(122,154,130);
 }
 input[type=text], select {
     width: 100%;
+    background-color: #bcd8b7;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 3px solid rgb(49, 49, 49);
     border-radius: 4px;
     box-sizing: border-box;
 }
 input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
+    width: 30%;
+    background-color:  rgb(122,154,130);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: none solid rgb(197,202,150);
     border-radius: 4px;
     cursor: pointer;
 }
+a {
+  color: grey;
+}
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(122,154,130);
     color: white;
 }
 /* WRAPPERS */
@@ -41,6 +47,7 @@ input[type=submit]:hover {
   min-height: 568px;
   position: relative !important;
 }
+
 @media (min-width: 768px) {
   #page-wrapper {
     position: inherit;
@@ -62,10 +69,11 @@ input[type=submit]:hover {
 }
 .chat-user {
   padding: 8px 10px;
-  border-bottom: 1px solid #e7eaec;
+  color: grey;
+  border-bottom: 1px solid #b7d7d8;
 }
 .chat-user a {
-  color: inherit;
+  color: grey;
 }
 .chat-view {
   z-index: 20012;
@@ -95,6 +103,7 @@ input[type=submit]:hover {
 }
 .chat-discussion .chat-message.left .message-avatar {
   float: left;
+  margin-top: 10px;
   margin-right: 10px;
 }
 .chat-discussion .chat-message.right .message-avatar {
@@ -103,8 +112,8 @@ input[type=submit]:hover {
 }
 #message {
 	overflow-y: auto;
-  background-color: #fff;
-  border: 1px solid #e7eaec;
+  background-color:  rgba(247, 242, 179, 0.884);
+  border: 3px solid   rgb(210,177,161);
   text-align: left;
   display: block;
   padding: 10px 20px;
@@ -133,9 +142,9 @@ input[type=submit]:hover {
   display: block;
 }
 .chat-discussion {
-  background: beige;
+  background: rgb(210,177,161);
   padding: 15px;
-  height: 400px;
+  height: 700px;
   overflow-y: auto;
 }
 .chat-users {
@@ -169,8 +178,8 @@ input[type=submit]:hover {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  background-color: #ffffff;
-  border-color: #e7eaec;
+  background-color: #b7d7d8;
+  border-color: #b7d7d8;
   border-image: none;
   border-style: solid solid none;
   border-width: 3px 0 0;
@@ -183,14 +192,14 @@ input[type=submit]:hover {
   background-color: #ffffff;
   color: inherit;
   padding: 15px 20px 20px 20px;
-  border-color: #e7eaec;
+  border-color: #b7d7d8;
   border-image: none;
   border-style: solid solid none;
   border-width: 1px 0;
 }
 .ibox-footer {
   color: inherit;
-  border-top: 1px solid #e7eaec;
+  border-top: 1px solid #b7d7d8;
   font-size: 90%;
   background: #ffffff;
   padding: 10px 15px;
@@ -202,7 +211,7 @@ input[type=submit]:hover {
 .form-control, .single-line {
     background-color: #FFFFFF;
     background-image: none;
-    border: 1px solid #e5e6e7;
+    border: 1px solid #b7d7d8;
     border-radius: 1px;
     color: inherit;
     display: block;
