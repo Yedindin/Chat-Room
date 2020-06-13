@@ -12,3 +12,5 @@ http://hguguestbook.com/phpmyadmin 링크로 접속하여 관리자로 로그인
 사용자의 닉네임과 채팅 내용이 기록되어 이 라즈베리파이를 이용한 사람들의 방명록을 남길 수 있습니다. 
 
 도움이 필요하다면 21900160@handong.edu 로 이메일을 주시면 도움을 드릴 수 있습니다.
+
+설명 동영상 링크 : https://drive.google.com/open?id=1Phib05LKoDBtIWhmDlUGDDn37wqHNtzQ
