@@ -13,4 +13,15 @@ http://hguguestbook.com/phpmyadmin 링크로 접속하여 관리자로 로그인
 
 도움이 필요하다면 21900160@handong.edu 로 이메일을 주시면 도움을 드릴 수 있습니다.
 
+작업한 부분:
+
+1. 채팅마다 색이 번갈아가며 바뀌게 변경
+2. 전체적 색상과 테마 변경 (자체적으로 디자인)
+3. 쓰여 있는 글 변경
+4. 프로필 이미지 부분 변경
+5. 유저 인터페이스 크기 수정
+6. 그 외 자잘한(잘 보이지 않지만 뭔가 바뀐거같긴 해보이는 것들) 설정들 수정
+
+오픈소스 출처: https://github.com/nikhil-amin/Chat-Room.git
+
 설명 동영상 링크 : https://drive.google.com/open?id=1Phib05LKoDBtIWhmDlUGDDn37wqHNtzQ
